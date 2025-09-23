@@ -1,0 +1,8 @@
+# Focus language stats on Dart
+lib/* linguist-detectable=true
+*.dart linguist-detectable=true
+
+# Ignore platform boilerplate
+android/* linguist-detectable=false
+ios/* linguist-detectable=false
+web/* linguist-detectable=false
