@@ -1,8 +1,10 @@
-# Focus language stats on Dart
-lib/* linguist-detectable=true
-*.dart linguist-detectable=true
+# Tell GitHub Linguist to ignore native build files
+android/* linguist-vendored
+ios/* linguist-vendored
+macos/* linguist-vendored
+windows/* linguist-vendored
+linux/* linguist-vendored
+web/* linguist-vendored
 
-# Ignore platform boilerplate
-android/* linguist-detectable=false
-ios/* linguist-detectable=false
-web/* linguist-detectable=false
+# Optional: ignore build and generated files
+build/* linguist-vendored
